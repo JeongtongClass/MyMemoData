@@ -22,7 +22,9 @@ public class Memo implements Serializable {
     public void setSeq(int seq) {
         this.seq = seq;
     }
+
 */
+    public  Memo(){}
     public Memo(String maintext, String subtext, int isdone){
         this.maintext=maintext;
         this.subtext=subtext;
