@@ -26,7 +26,7 @@ public class AddActivity extends AppCompatActivity {
     private EditText edtText;
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
-
+//파이어베이스연동
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
